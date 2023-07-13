@@ -354,7 +354,7 @@ private\_key\_file = /ubuntu/.ssh/id\_rsa or path/to/private\_key.pem
 
 remote\_user = \<SSH\_USERNAME\>
 
-_and saved the changes and run._
+_save the changes and run._
 
 You should be able to see that the play is being run successfully.
 
@@ -376,4 +376,3 @@ Now our Ansible architecture looks like the diagram below:
 
 ![](RackMultipart20230712-1-sr7fh8_html_cf14ed19324cd962.png)
 
-7 **|** Page
