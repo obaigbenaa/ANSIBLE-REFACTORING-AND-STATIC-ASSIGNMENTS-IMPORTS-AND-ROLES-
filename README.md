@@ -1,5 +1,5 @@
 
-**ANSIBLE REFACTORING AND STATIC ASSIGNMENTS (IMPORTS AND ROLES)**
+##ANSIBLE REFACTORING AND STATIC ASSIGNMENTS (IMPORTS AND ROLES)
 
 In this project we will continue working with 'ansible-config-mgt' repository and make some improvements of our code. Now you need to refactor our Ansible code, create assignments, and learn how to use the imports functionality. Imports allows to effectively re-use previously created playbooks in a new playbook – it helps to organize tasks and reuse them when needed.
 
@@ -7,7 +7,7 @@ Firstly, let's explain code refactoring.
 
 [_ **Refactoring** _](https://en.wikipedia.org/wiki/Code_refactoring) is a general term in computer programming. It means making changes to the source code without changing expected behaviour of the software. The main idea of refactoring is to enhance code readability, increase maintainability and extensibility, reduce complexity, add proper comments without affecting the logic.It involves making changes to the code's internal structure, organization, and implementation while preserving its functionality.
 
-**STEP 1- JENKINS JOB ENHANCEMENT**
+###**STEP 1- JENKINS JOB ENHANCEMENT**
 
 Before we begin, let us make some changes to our Jenkins job – now every new change in the codes creates a separate directory which is not very convenient when we want to run some commands from one place. Besides, it consumes space on Jenkins serves with each subsequent change. Let us enhance it by introducing a new Jenkins project/job – we will require [_ **Copy Artifact** _](https://plugins.jenkins.io/copyartifact/) plugin.
 
